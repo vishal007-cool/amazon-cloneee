@@ -5,7 +5,7 @@ import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
   // 🔥 MUST MATCH GITHUB REPO NAME
-  base: "/alarmclock/",
+  base: "/",
 
   plugins: [
     react(),
