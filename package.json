@@ -1,0 +1,48 @@
+{
+  "name": "calendar-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "homepage": "https://vishal007-cool.github.io/amazon-clonee-app/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.36.1",
+    "@types/react-beautiful-dnd": "^13.1.8",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "fastify": "^5.6.2",
+    "firebase": "^12.6.0",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^0.525.0",
+    "mongoose": "^8.20.2",
+    "nodemailer": "^7.0.11",
+    "openai": "^5.23.2",
+    "qrcode.react": "^4.2.0",
+    "razorpay": "^2.9.6",
+    "react": "^19.1.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.10.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.17",
+    "@types/node": "^24.10.2",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.22",
+    "daisyui": "^5.5.8",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "vite-plugin-pwa": "^1.2.0"
+  }
+}
