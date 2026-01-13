@@ -18,7 +18,7 @@ import {
 } from 'lucide-react';
 
 // Change this to your local backend URL
-const API_URL = "http://localhost:5000";
+const API_URL = "https://back-dngo.onrender.com";
 
 // Fallback data in case the backend is unreachable from the preview environment
 const FALLBACK_PRODUCTS = [
